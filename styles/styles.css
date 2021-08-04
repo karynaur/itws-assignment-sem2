@@ -1,0 +1,90 @@
+/*to the entire page*/
+
+html {
+    background: url(./wal_6.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: aliceblue;
+}
+
+
+/*links*/
+
+a:link {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+/*table style*/
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+tr:hover {
+    transform: scale(1.009);
+}
+
+tr:nth-child(-1) {
+    background-color: black;
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    white-space: nowrap;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container>div {
+    width: 33%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
